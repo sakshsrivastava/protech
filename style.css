@@ -273,7 +273,7 @@ body {
   display:flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 125px;
   padding: 50px;
   background-color: rgb(241,240,240);
   
@@ -401,6 +401,7 @@ body {
     .hero2{
 
       flex-direction: column;
+      
     }
     .img2-hero{  
       height: 200px;
@@ -607,6 +608,8 @@ ul{
 .client{
   margin-bottom: 40px;
   margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 .text-review{
      position: relative;
