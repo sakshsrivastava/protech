@@ -245,7 +245,7 @@ body {
   }
 
 
-.hero{
+ .hero{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -275,7 +275,7 @@ body {
 }
 @media (max-width:600px) and (min-width:410px){
     .i-image{
-        height: 200px;
+        height: 300px;
         border: none;
         border-radius: 25px;
         margin-inline: auto !important;
@@ -288,7 +288,7 @@ body {
 }
 @media (max-width:410px) and (min-width:0px){
     .i-image{
-      height: 400px;
+      height: 300px;
       border: none;
       border-radius: 25px;
       margin-inline: auto !important;
