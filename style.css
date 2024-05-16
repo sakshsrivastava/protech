@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
 
 
 body {
@@ -425,6 +426,7 @@ body {
 
   .mobile-text{
     background-color:  rgb(241,240,240) ;
+    font-family: cursive;
     font-weight: 300;
     display: flex;
     align-items: center;
@@ -646,4 +648,205 @@ ul{
     display: none;
   }
   
+}
+.mid-sec{
+  margin: 10px;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+.heading_mid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  text-decoration-color:  rgb(236,123,1);
+  
+
+}
+.hr{
+   color:orange ;
+   background-color: orange;
+}
+.mid-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-top: -70px;
+  margin-inline: auto;
+  
+  
+}
+.mid-content h2{
+  color:  rgb(236,123,1);
+}
+
+
+
+.mid-content-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+   
+  min-width: 200px;
+  
+  
+}
+@media (max-width:1200px) {
+  .mid-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: -100px;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+  }
+  
+  
+}
+.why-us{
+  background-color: rgb(241,240,240);
+  min-height: 400px;
+  padding: 50px;
+}
+.heading-why-us{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+
+  
+}
+.heading-why-us h2{
+  margin-top: 10px;
+  font-family: "Freeman", sans-serif;
+  font-weight: 200;
+  margin-bottom: -39px;
+  
+}
+.whyus-logo{
+  display:flex ;
+  margin-left: 100px;
+  align-items: center;
+}
+.whyus-logo img {
+  height: 100px;
+  width: 100px;
+
+}
+.list-items{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 170px;
+  margin-top: 10px;
+  
+  
+
+}
+.list-item{
+  line-height: 20px;
+
+}
+.header-foot{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color:rgb(236,123,1) ;
+  margin-inline: auto;
+}
+.company-choose-us{
+  min-height: 200px;
+  padding: 20px;
+}
+.head-com{
+  color: rgb(17,45,99);
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: "Freeman", sans-serif;
+  font-weight: 200;
+}
+.logolot{
+  display: flex;
+  height: 300px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.cat{
+  background-color: rgb(17,45,99);
+  min-height: 200px;
+  padding: 20px;
+}
+.cath{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Freeman", sans-serif;
+  font-weight: 200;
+  color: rgb(236,123,1);
+  margin-top: 20px;
+  font-size: 2rem;
+
+}
+.catb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+.btn-cat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
+  background-color:  rgb(236,123,1);
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  font-family: "Freeman", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.btn-cat:hover{
+  color: black;
+  box-shadow: 5px 5px 5px black;
+}
+.nextsec{
+  min-height: 20px;
+}
+@media (max-width:928px) and (min-width:0px) {
+  .list-items{
+    display: flex;
+    
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+  
+  }
+  .whyus-logo{
+    display:flex ;
+    align-self: flex-start;
+    margin-left: 0px;
+    
+  }
+  .why-us{
+    padding-left: 10px;
+  }
+  .mid-content{
+    padding-left: 20px;
+  }
+  .header-foot{
+    padding-left: 50px;
+  }
 }
